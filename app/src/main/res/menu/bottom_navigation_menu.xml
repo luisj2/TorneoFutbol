@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/iconohome"
+        android:title="Home" />
+    <item
+        android:id="@+id/Estadisticas"
+        android:icon="@drawable/iconotrofeo"
+        android:title="Estadisticas" />
+    <item
+        android:id="@+id/Clasificacion"
+        android:icon="@drawable/iconoestadisticas_"
+        android:title="Clasificacion" />
+    <item
+        android:id="@+id/Modificar"
+        android:icon="@drawable/editar"
+        android:title="Modificar" />
+</menu>

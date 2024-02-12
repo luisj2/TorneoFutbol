@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".ModificarEquipo.AniadirEquipo" >
+
+    <EditText
+        android:id="@+id/textviewFechaEncuentro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/IntroducirFecha"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/textviewNombreEquipo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/IntroduceEquipo1"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/textviewNombreEquipo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/IntroduceEquipo2"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/textviewPuntuacion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/IntroducirPuntuacion1"
+        android:inputType="text"
+        android:phoneNumber="true" />
+
+    <EditText
+        android:id="@+id/textviewPuntuacion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/IntroducePuntuacion2"
+        android:inputType="text"
+        android:phoneNumber="true" />
+
+    <Button
+        android:id="@+id/btnInsercionEquipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="funcionInsertarEquipo"
+        android:text="@string/InsertarEncuentro" />
+</LinearLayout>

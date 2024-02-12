@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Clasificacion">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/QueHacer"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnAniadirEquipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/AñadirEquipo"
+            android:onClick="mandarAniadirEquipo"/>
+
+        <Button
+            android:id="@+id/btnEliminarEquipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/EliminarEquipo"
+            android:onClick="mandarEliminarEquipo"/>
+
+        <Button
+            android:id="@+id/btnAniadirEncuentro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/AniadirEncuentro"
+            android:onClick="mandarAniadirEncuentro"/>
+
+        <Button
+            android:id="@+id/btnEliminarEncuentro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/EliminarEncuentro"
+            android:onClick="mandarEliminarEncuentro"/>
+
+        <Button
+            android:id="@+id/buttonbsc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Busscar"
+            android:onClick="mandarBuscar"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/barra_navegacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_navigation_menu" />
+</LinearLayout>

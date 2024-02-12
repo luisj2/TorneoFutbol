@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InfoEquipo">
+
+    <ImageView
+        android:id="@+id/imagenEscudo"
+        android:layout_width="415dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/iconoescudodefecto" />
+
+    <TextView
+        android:id="@+id/tvinfoNombreEquipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Partidos Ganados"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tvPartidosGanados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Partidos Perdidos"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tvinfoPartidosPerdidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Partidos Empatados"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tvinfoPartidosEmpatados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAlignment="center" />
+</LinearLayout>

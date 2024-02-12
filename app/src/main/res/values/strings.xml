@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TorneoFutbol</string>
+    <string name="QueHacer">¿Que deseas hacer?</string>
+    <string name="AñadirEquipo">Añadir Equipo</string>
+    <string name="EliminarEquipo">Eliminar Equipo</string>
+    <string name="AniadirEncuentro">Agregar Encuentro</string>
+    <string name="EliminarEncuentro">Eliminar Encuentro</string>
+    <string name="IntroducirEquipo">Introduce el nombre del equipo</string>
+    <string name="IntroduceCiudad">Introduce la ciudad del equipo</string>
+    <string name="InsetaEquipo">Insetar Equipo</string>
+    <string name="IntroducirFecha">Introduce la fecha del encuentro dia/mes/año</string>
+    <string name="IntroduceEquipo1">Introduce el nombre del equipo 1</string>
+    <string name="IntroduceEquipo2">Introduce el nombre del equipo 2</string>
+    <string name="IntroducirPuntuacion1">Introduce la puntuacion del equipo 1</string>
+    <string name="IntroducePuntuacion2">Introduce la puntuacion del equipo 2</string>
+    <string name="InsertarEncuentro">Insertar Encuentro</string>
+    <string name="IntroduceNumEncuentro">Introduce el numero de encuentro</string>
+    <string name="BuscarCiudad">Buscar por ciudad</string>
+    <string name="BuscarEquipo">Buscar por Equipo</string>
+    <string name="ciudadOEquipo">Introduce la ciudad o el equipo</string>
+    <string name="Buscar">Buscar</string>
+    <string name="Puesto">Puesto</string>
+    <string name="NombreEquipo">Nombre Equipo</string>
+    <string name="Puntos">Puntos</string>
+    <string name="JugadorDesconocido">Desconocido</string>
+</resources>
